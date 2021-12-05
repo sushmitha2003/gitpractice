@@ -18,3 +18,10 @@ three stages in git
 .commited (then commit the changes to local repo .git directory)
 (the push the changes to remote repo)
 
+"branching"
+git branch - to check the exsisting branches
+git branch branchname - to create a branch
+git checkout branchname - to switch branch
+git switch branchname - to switch branch
+git checkout -b branchname - to create and switch to that branch
+git merge branchname - to merge branches (for doing this first we need to move to root branch and merge)
