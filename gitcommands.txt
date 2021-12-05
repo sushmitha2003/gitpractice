@@ -1,4 +1,7 @@
 git commands
+
+"local repository to remote repository"
+
  step1: checker whether the directory is required directory
  step2: git init
  step3: git add .
@@ -7,3 +10,11 @@ git commands
  step5: now the files in the local repository should be moved to remote repository
  that is  git remote add origin first link in github
  step6: git push -u origin branch(master)
+
+"stages of git"
+three stages in git 
+.modified  (after initilisation the files are untracked (u) once if it is added to local repo then any changes are made to exsisting files then files are modified(m))
+.staged (after modifying the files the files should be added to staging area )
+.commited (then commit the changes to local repo .git directory)
+(the push the changes to remote repo)
+
