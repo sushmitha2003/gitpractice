@@ -25,3 +25,12 @@ git checkout branchname - to switch branch
 git switch branchname - to switch branch
 git checkout -b branchname - to create and switch to that branch
 git merge branchname - to merge branches (for doing this first we need to move to root branch and merge)
+
+ branch are two types
+ .fastforward merge (just merge)
+ .two way/recursive merge  (first we need to make changes in one branch one file then add and commit and the make changes in another branch same file and then add commit and then merge both the branches)
+ And then add commit push 
+ conflict occurs then select the line you want (in case for comparision no need to add and commit) else add and commit. and then push to remote repo.
+
+clone
+.git clone githublink - to clone 
